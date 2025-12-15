@@ -9,3 +9,15 @@ button {
   color: white;
   border-radius: 6px;
 }
+
+button:hover {
+  background: #4338ca;
+  cursor: pointer;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
