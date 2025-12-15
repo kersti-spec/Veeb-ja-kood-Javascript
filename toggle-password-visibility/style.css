@@ -1,23 +1,32 @@
 input {
   padding: 10px;
   border-radius: 8px;
-  border: 2px solid #4f46e5;
+  border: 2px dotted #4f46e5;
+  background-color: #f1f0ec;
 }
 
 button {
   background: #4f46e5;
-  color: white;
+  color: #f1f0ec;
   border-radius: 6px;
+  border-color: #F0D8CC;
+  padding: 10px;
+  font-weight: 600;
 }
 
 button:hover {
   background: #4338ca;
   cursor: pointer;
+  
 }
 
 body {
+ background-color: #f1f0ec;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: 'Poppins', sans-serif;
 }
+
+
